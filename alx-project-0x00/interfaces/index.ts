@@ -1,5 +1,8 @@
 
-
+export interface ButtonProps {
+  title: string;
+  styles?: string; // <-- Add this line
+}
 export interface PillProps {
   title: string
 }
