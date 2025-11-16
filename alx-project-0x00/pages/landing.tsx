@@ -1,29 +1,16 @@
-import Button from "@/components/Button";
+import Card from "@/components/Card";
 
-export default function Landing() {
+const Landing: React.FC = () => {
   return (
-    <div className="p-6 space-y-4">
+    <main className="p-10">
+      <h1 className="text-3xl font-bold mb-6">Landing Page</h1>
 
-      <h1 className="text-2xl font-bold">Landing Page Buttons</h1>
-
-      <div className="flex gap-4 flex-wrap">
-
-        {/* Small Buttons */}
-        <Button title="Small Rounded" size="small" shape="rounded-sm" />
-        <Button title="Small Mid Round" size="small" shape="rounded-md" />
-        <Button title="Small Full Round" size="small" shape="rounded-full" />
-
-        {/* Medium Buttons */}
-        <Button title="Medium Rounded" size="medium" shape="rounded-sm" />
-        <Button title="Medium Mid Round" size="medium" shape="rounded-md" />
-        <Button title="Medium Full Round" size="medium" shape="rounded-full" />
-
-        {/* Large Buttons */}
-        <Button title="Large Rounded" size="large" shape="rounded-sm" />
-        <Button title="Large Mid Round" size="large" shape="rounded-md" />
-        <Button title="Large Full Round" size="large" shape="rounded-full" />
-
-      </div>
-    </div>
+      {/* Render the Card component */}
+      <Card />
+      <Card />
+      <Card />
+    </main>
   );
-}
+};
+
+export default Landing;
