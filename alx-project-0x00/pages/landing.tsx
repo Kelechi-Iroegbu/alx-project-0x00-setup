@@ -7,20 +7,10 @@ const Landing: React.FC = () => {
 
       <div className="flex flex-col gap-4">
 
-        {/* Small Buttons */}
-        <Button title="Small - Rounded SM" styles="text-sm rounded-sm" />
-        <Button title="Small - Rounded MD" styles="text-sm rounded-md" />
-        <Button title="Small - Rounded Full" styles="text-sm rounded-full" />
-
-        {/* Medium Buttons */}
-        <Button title="Medium - Rounded SM" styles="text-base rounded-sm" />
-        <Button title="Medium - Rounded MD" styles="text-base rounded-md" />
-        <Button title="Medium - Rounded Full" styles="text-base rounded-full" />
-
-        {/* Large Buttons */}
-        <Button title="Large - Rounded SM" styles="text-xl rounded-sm" />
-        <Button title="Large - Rounded MD" styles="text-xl rounded-md" />
-        <Button title="Large - Rounded Full" styles="text-xl rounded-full" />
+        {/* Existing sizes */}
+        <Button title="Small - Rounded LG" styles="text-sm rounded-lg" />
+        <Button title="Medium - Rounded LG" styles="text-base rounded-lg" />
+        <Button title="Large - Rounded LG" styles="text-xl rounded-lg" />
 
       </div>
     </main>
