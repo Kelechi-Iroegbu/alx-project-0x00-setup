@@ -9,7 +9,7 @@ const Landing: React.FC = () => {
       <div className="flex flex-col gap-4">
 
         {/* Rounded SM */}
-        <Button title="Small - Rounded SM" styles="text-sm rounded-sm" />
+        <Button title="Small - Rounded SM" styles="text-sm rounded-lg" />
         <Button title="Medium - Rounded SM" styles="text-base rounded-sm" />
         <Button title="Large - Rounded SM" styles="text-xl rounded-sm" />
 
