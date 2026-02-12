@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-
+<Card />
 const Landing: React.FC = () => {
   return (
     <main className="p-10">
