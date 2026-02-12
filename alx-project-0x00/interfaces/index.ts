@@ -2,6 +2,7 @@
 export interface ButtonProps {
   title: string;
   styles?: string; // <-- Add this line
+  styles: string
 }
 export interface PillProps {
   title: string
